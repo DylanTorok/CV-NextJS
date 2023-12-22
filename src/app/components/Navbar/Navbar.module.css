@@ -26,7 +26,7 @@
 }
 
 .li {
-  margin-right: 10px; /* Ajustez l'espacement entre les éléments */
+  margin-right: 10px; /* Ajustement espacement entre les éléments */
 }
 
 /* Ajout d'une media query pour désactiver le flex sur les petits écrans */
