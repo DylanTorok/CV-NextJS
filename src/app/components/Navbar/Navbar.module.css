@@ -1,20 +1,8 @@
-.background {
-  background-color: #000;
-  height: 100vh;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-
 .navbar {
   background-color: #111;
-  width: 80%;
+  width: 100%;
   padding: 20px;
-  border-radius: 20px 20px 20px 20px;
-  margin-top: 20px;
   display: flex;
-  flex-direction: column; /* Alignement vertical des éléments */
   align-items: center; /* Centrage horizontal des éléments */
 }
 
@@ -30,7 +18,16 @@
 }
 
 /* Ajout d'une media query pour désactiver le flex sur les petits écrans */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
+
+  .navbar {
+    flex-direction: column; /* Alignement vertical des éléments */
+  }
+
+  .h1 {
+    padding-bottom: 2%;
+  }
+
   .ul {
     flex-direction: column;
     align-items: center;
@@ -46,8 +43,7 @@
   color: #fff;
   font-family: Arial, sans-serif;
   font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 0px;
+  padding-right: 2%;
 }
 
 .a {
