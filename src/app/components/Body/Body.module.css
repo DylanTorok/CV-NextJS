@@ -1,0 +1,14 @@
+.body {
+  background-color: #111;
+  height: 50vh;
+  width: 60%;
+  padding: 20px;
+}
+
+.text {
+  color: #fff;
+  font-size: large;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+}
