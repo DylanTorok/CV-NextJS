@@ -7,9 +7,9 @@ const Body: React.FC = () => {
 
   return (
     <>
-    <p className={classes}>Vous trouverez ici mon parcours scolaire sous forme de frise chronologique, la liste de mes compétences techniques que j'ai acquises
+    <p className={classes}>{`Vous trouverez ici mon parcours scolaire sous forme de frise chronologique, la liste de mes compétences techniques que j'ai acquises
     à l'IUT ainsi que mes projets effectués lors des cours et ceux dans un cadre personnel.
-    Je vous souhaite une bonne visite !</p>
+    Je vous souhaite une bonne visite !`}</p>
     </>
   );
 };
