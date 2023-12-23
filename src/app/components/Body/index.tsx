@@ -7,9 +7,16 @@ const Body: React.FC = () => {
 
   return (
     <>
-    <p className={classes}>{`Vous trouverez ici mon parcours scolaire sous forme de frise chronologique, la liste de mes compétences techniques que j'ai acquises
-    à l'IUT ainsi que mes projets effectués lors des cours et ceux dans un cadre personnel.
-    Je vous souhaite une bonne visite !`}</p>
+    <p className={classes}>{`Bienvenue dans mon espace dédié à la programmation.
+    Je m'appelle Torok Dylan, étudiant en 3ème année de BUT informatque à l'IUT de Lens`}.
+    </p>
+    <p className={classes}> {`Ce portfolio est une fenêtre sur mes projets personnels et académiques en programmation.
+    Vous y découvrirez une collection de défis résolus, d'applications conçues et de technologies explorées. `}
+    </p>
+    <p className={classes}> {`En explorant ces pages, vous verrez comment mes compétences ont évolué, des premières lignes de code aux projets actuels.
+    Merci de prendre le temps de parcourir mon travail.
+    J'espère que cette immersion dans mon portfolio vous offrira un aperçu authentique de ma passion pour la programmation informatique.`}
+    </p>
     </>
   );
 };
