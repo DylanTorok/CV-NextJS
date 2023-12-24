@@ -11,12 +11,13 @@ const Home: React.FC = () => {
   };
 
   return (
-  <div>
+    <div>
       <Navbar navigation={navigationLinks}/>
     <div className={styles.center}>
       <Body/>
-      <Footer/>
-    </div>
+    </div> 
+    <Footer/>
+
   </div>
   );
 };
