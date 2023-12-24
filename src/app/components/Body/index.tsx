@@ -4,7 +4,7 @@ import styles from './Body.module.css';
 const Body: React.FC = () => {
 
   return (
-    <div className={styles.body}>
+    <section className={styles.body}>
       <p className={styles.text}>{`Bienvenue dans mon espace dédié à la programmation.
       Je m'appelle Torok Dylan, étudiant en 3ème année de BUT informatque à l'IUT de Lens`}.
       </p>
@@ -15,7 +15,7 @@ const Body: React.FC = () => {
       Merci de prendre le temps de parcourir mon travail.
       J'espère que cette immersion dans mon portfolio vous offrira un aperçu authentique de ma passion pour la programmation informatique.`}
       </p>
-    </div>
+    </section>
   );
 };
 
