@@ -2,8 +2,7 @@
   position:absolute;
   bottom:0;
   width: 100%;
-  display: flex;
-  align-items: center; /* Centrage horizontal des éléments */
+  margin-bottom: 1%;
 }
 
 .ul {
@@ -11,10 +10,30 @@
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: center; /* Centrer horizontalement les éléments */
 }
 
 .li {
-  margin-right: 10px; /* Ajustement espacement entre les éléments */
+  color: #fff;
+  margin-right: 25px; /* Ajustement espacement entre les éléments */
+  display: flex; /* Utilisez flexbox pour aligner l'image et le texte */
+  align-items: center; /* Aligner les éléments verticalement */
+}
+
+.svg {
+  margin-right: 20px;
+}
+
+.a {
+  color: #fff
+}
+
+.a:link {
+  text-decoration: none;
+}
+
+.a:hover {
+  text-decoration: underline;
 }
 
 /* Ajout d'une media query pour désactiver le flex sur les petits écrans */
@@ -27,24 +46,12 @@
 
   .ul {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
+    margin-top: 25px;
   }
 
   .li {
-    margin-right: 0; /* Ajustement espacement entre les éléments li sur les petits écrans */
+    width: 60%;
     margin-bottom: 15px; /* Ajustement espacement entre les éléments li sur les petits écrans */
   }
-}
-
-.a {
-  color: #fff;
-  text-decoration: none;
-  padding: 5px 10px;
-  border-radius: 5px;
-  background-color: #2980b9;
-  transition: background-color 0.3s ease; /* Animation de transition pour l'effet hover */
-}
-
-.a:hover {
-  background-color: #2c3e50;
 }
