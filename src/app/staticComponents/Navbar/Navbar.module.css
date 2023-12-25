@@ -23,7 +23,7 @@
   padding-right: 2%;
 }
 
-.a {
+.link {
   color: #fff;
   text-decoration: none;
   padding: 5px 10px;
@@ -32,7 +32,7 @@
   transition: background-color 0.3s ease; /* Animation de transition pour l'effet hover */
 }
 
-.a:hover {
+.link:hover {
   background-color: #2c3e50;
 }
 

@@ -9,10 +9,10 @@ const Navbar: React.FC = () => {
       <h1 className={styles.h1}>Torok Dylan</h1>
       <nav className={styles.nav}>
         <ul className={styles.ul}>
-          <li className={styles.li}> <Link className={styles.a} href="/oui">Formation</Link></li>
-          <li className={styles.li}><a className={styles.a} href="/oui">Compétences</a></li>
-          <li className={styles.li}><a className={styles.a} href="/oui">Projets personnels</a></li>
-          <li className={styles.li}><a className={styles.a} href="/oui">Projets scolaires</a></li>
+          <li className={styles.li}> <Link className={styles.link} href="/formation">Formation</Link></li>
+          <li className={styles.li}> <Link className={styles.link} href="/competences">Compétences</Link></li>
+          <li className={styles.li}> <Link className={styles.link} href="/projetsPersonnels">Projets personnels</Link></li>
+          <li className={styles.li}> <Link className={styles.link} href="/projetsScolaires">Projets scolaires</Link></li>
         </ul>
       </nav>
     </header>
