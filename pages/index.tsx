@@ -1,18 +1,13 @@
 import React from 'react';
-import Navbar from '../src/app/components/Navbar';
-import Body from '../src/app/components/Body';
-import Footer from '../src/app/components/Footer';
+import Navbar from '../src/app/staticComponents/Navbar';
+import Body from '../src/app/menu';
+import Footer from '../src/app/staticComponents/Footer';
 import styles from '../styles/index.module.css';
 
 const Home: React.FC = () => {
-  const navigationLinks = {
-    about: '/about',
-    skills: '/skills',
-  };
-
   return (
     <div>
-      <Navbar navigation={navigationLinks}/>
+      <Navbar/>
     <div className={styles.center}>
       <Body/>
     </div> 
