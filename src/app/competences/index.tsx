@@ -3,21 +3,21 @@ import React from 'react';
 import styles from './Body.module.css';
 
 const languagesData = [
-  { name: 'Java', image: '/pictures/languages/Java.png', width: 80, height: 135, level: 75 },
-  { name: 'Python', image: '/pictures/languages/Python.png', width: 120, height: 135, level: 75 },
-  { name: 'SQL', image: '/pictures/languages/SQL.png', width: 275, height: 135, level: 60 },
-  { name: 'PHP', image: '/pictures/languages/PHP.png', width: 175, height: 135, level: 50 },
-  { name: 'TypeScript', image: '/pictures/languages/TypeScript.png', width: 135, height: 135, level: 50 },
-  { name: 'C', image: '/pictures/languages/C.png', width: 125, height: 135, level: 25 }
+  { name: 'Java', image: '/pictures/languages/Java.jpg', width: 80, height: 135, level: 75 },
+  { name: 'Python', image: '/pictures/languages/Python.jpg', width: 120, height: 135, level: 75 },
+  { name: 'SQL', image: '/pictures/languages/SQL.jpg', width: 275, height: 135, level: 60 },
+  { name: 'PHP', image: '/pictures/languages/PHP.jpg', width: 175, height: 135, level: 50 },
+  { name: 'TypeScript', image: '/pictures/languages/TypeScript.jpg', width: 135, height: 135, level: 50 },
+  { name: 'C', image: '/pictures/languages/C.jpg', width: 125, height: 135, level: 25 }
 ];
 
 const softwaresData = [
-  { name: 'Eclipse', image: '/pictures/softwares/Eclipse.png', width: 135, height: 135, level: 80 },
-  { name: 'VS Code', image: '/pictures/softwares/VSCode.png', width: 135, height: 135, level: 80 },
-  { name: 'Git', image: '/pictures/softwares/Git.png', width: 135, height: 135, level: 60 },
-  { name: 'PhpStorm', image: '/pictures/softwares/PhpStorm.png', width: 135, height: 135, level: 60 },
-  { name: 'PyCharm', image: '/pictures/softwares/PyCharm.png', width: 135, height: 135, level: 60 },
-  { name: 'Docker', image: '/pictures/softwares/Docker.png', width: 200, height: 135, level: 50 }
+  { name: 'Eclipse', image: '/pictures/softwares/Eclipse.jpg', width: 135, height: 135, level: 80 },
+  { name: 'VS Code', image: '/pictures/softwares/VSCode.jpg', width: 135, height: 135, level: 80 },
+  { name: 'Git', image: '/pictures/softwares/Git.jpg', width: 135, height: 135, level: 60 },
+  { name: 'PhpStorm', image: '/pictures/softwares/PhpStorm.jpg', width: 135, height: 135, level: 60 },
+  { name: 'PyCharm', image: '/pictures/softwares/PyCharm.jpg', width: 135, height: 135, level: 60 },
+  { name: 'Docker', image: '/pictures/softwares/Docker.jpg', width: 200, height: 135, level: 50 }
 ];
 
 const Body: React.FC = () => {
