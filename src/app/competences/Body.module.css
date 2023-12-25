@@ -1,29 +1,60 @@
-.ul {
-  width: 60%;
-  border-left: 1px solid #fff;
-  margin-top: 5%;
+.skillsSection {
+  padding: 20px;
 }
 
-.li {
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skillItem {
+  width: calc(33.33% - 10px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.skillInfo {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.progressBarContainer {
+  height: 10px;
+  width: 50%;
+  background-color: #ddd;
+  margin-bottom: 15%;
+}
+
+.progressBar {
+  height: 100%;
+  background-color: #4caf50;
+}
+
+.h1 {
   color: #fff;
-  font-size: large;
   font-weight: bold;
-  text-align: justify;
+  text-align: center;
+  margin-bottom: 5%;
 }
 
-.p1 {
+.p {
   color: #fff;
-  font-size: large;
-  text-align: justify;
-  padding-bottom: 5%;
-  padding-left: 2%;
-  padding-right: 5%;
+  font-weight: bold;
 }
 
-.p2 {
-  color: #fff;
-  font-size: large;
-  text-align: justify;
-  padding-left: 2%;
-  padding-right: 5%;
+/* Ajout d'une media query pour désactiver le flex sur les petits écrans */
+@media only screen and (max-width: 800px) {
+
+  .skillsContainer {
+    flex-direction: column; /* Alignement vertical des éléments */
+    align-items: center;
+  }
+
+  .progressBarContainer {
+    width: 100%;
+  }
 }
