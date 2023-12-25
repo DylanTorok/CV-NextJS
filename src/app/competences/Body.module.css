@@ -1,0 +1,29 @@
+.ul {
+  width: 60%;
+  border-left: 1px solid #fff;
+  margin-top: 5%;
+}
+
+.li {
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.p1 {
+  color: #fff;
+  font-size: large;
+  text-align: justify;
+  padding-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 5%;
+}
+
+.p2 {
+  color: #fff;
+  font-size: large;
+  text-align: justify;
+  padding-left: 2%;
+  padding-right: 5%;
+}
