@@ -8,12 +8,11 @@ const Home: React.FC = () => {
   return (
     <div>
       <Navbar/>
-    <div className={styles.center}>
-      <Body/>
-    </div> 
-    <Footer/>
-
-  </div>
+      <div className={styles.center}>
+        <Body/>
+      </div> 
+      <Footer/>
+    </div>
   );
 };
 

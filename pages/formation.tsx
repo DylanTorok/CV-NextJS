@@ -8,11 +8,10 @@ const Formation: React.FC = () => {
   return (
     <div>
       <Navbar/>
-    <div className={styles.center}>
-      <Body/>
-    </div> 
+      <div className={styles.center}>
+        <Body/>
+      </div> 
     <Footer/>
-
   </div>
   );
 };
