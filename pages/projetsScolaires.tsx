@@ -4,16 +4,14 @@ import Body from '../src/app/menu';
 import Footer from '../src/app/staticComponents/Footer';
 import styles from '../styles/index.module.css';
 
-const Home: React.FC = () => {
+const ProjetsScolaires: React.FC = () => {
   return (
     <div>
       <Navbar/>
-      <div className={styles.center}>
-        <Body/>
-      </div> 
-      <Footer/>
-    </div>
+    <Footer/>
+
+  </div>
   );
 };
 
-export default Home;
+export default ProjetsScolaires;
