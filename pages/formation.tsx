@@ -12,7 +12,7 @@ const Formation: React.FC = () => {
         <Body/>
       </div> 
     <Footer/>
-  </div>
+    </div>
   );
 };
 
