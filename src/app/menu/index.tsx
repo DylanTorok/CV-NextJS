@@ -6,7 +6,7 @@ const Body: React.FC = () => {
   return (
     <section className={styles.body}>
       <p className={styles.text}>{`Bienvenue dans mon espace dédié à la programmation.
-      Je m'appelle Torok Dylan, étudiant en 3ème année de BUT informatque à l'IUT de Lens`}.
+      Je m'appelle Torok Dylan, étudiant en 3ème année de BUT informatique à l'IUT de Lens`}.
       </p>
       <p className={styles.text}> {`Ce portfolio est une fenêtre sur mes projets personnels et académiques en programmation.
       Vous y découvrirez une collection de défis résolus, d'applications conçues et de technologies explorées. `}
