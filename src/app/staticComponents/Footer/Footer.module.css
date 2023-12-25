@@ -15,6 +15,7 @@
 
 .li {
   color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
   margin-right: 25px; /* Ajustement espacement entre les éléments */
   display: flex; /* Utilisez flexbox pour aligner l'image et le texte */
   align-items: center; /* Aligner les éléments verticalement */
