@@ -21,8 +21,8 @@ const Body: React.FC = () => {
       <p className={styles.text}> {`Le jeu est jouable sur l'invite de commandes après avoir compilé le programme.`}
       </p>
       <div className={styles.imagesContainer}>
-        <img src="/pictures/personalProjects/Initialisation.jpg" alt="Image 1" className={styles.image} />
-        <img src="/pictures/personalProjects/Rester.jpg" alt="Image 2" className={styles.image} />
+        <img src="/pictures/personalProjects/blackjack/Initialization.jpg" alt="Initialization" className={styles.image} />
+        <img src="/pictures/personalProjects/blackjack/Stay.jpg" alt="Stay" className={styles.image} />
       </div>
     </section>
   );
