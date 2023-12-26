@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Body.module.css';
+import Image from 'next/image';
 
 const Body: React.FC = () => {
 
@@ -24,8 +25,8 @@ const Body: React.FC = () => {
       <p className={styles.text}> {`À la fin, des scripts bash furent écrits pour générer automatiquement les images des fractales.`}
       </p>
       <div className={styles.imagesContainer}>
-        <img src="/pictures/schoolProjects/fractals/RedJulia.jpg" alt="Red Julia" className={styles.image} />
-        <img src="/pictures/schoolProjects/fractals/RedMandelbrot.jpg" alt="Red Mandelbrot" className={styles.image} />
+        <Image src="/pictures/schoolProjects/fractals/RedJulia.jpg" alt="Red Julia" width= "500" height="125" className={styles.image} />
+        <Image src="/pictures/schoolProjects/fractals/RedMandelbrot.jpg" alt="Red Mandelbrot" width= "500" height="125" className={styles.image} />
       </div>
     </section>
   );

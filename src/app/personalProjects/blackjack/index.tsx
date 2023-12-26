@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Body.module.css';
+import Image from 'next/image';
 
 const Body: React.FC = () => {
 
@@ -21,8 +22,8 @@ const Body: React.FC = () => {
       <p className={styles.text}> {`Le jeu est jouable sur l'invite de commandes après avoir compilé le programme.`}
       </p>
       <div className={styles.imagesContainer}>
-        <img src="/pictures/personalProjects/blackjack/Initialization.jpg" alt="Initialization" className={styles.image} />
-        <img src="/pictures/personalProjects/blackjack/Stay.jpg" alt="Stay" className={styles.image} />
+        <Image src="/pictures/personalProjects/blackjack/Initialization.jpg" alt="Initialization" width= "500" height="125" className={styles.image} />
+        <Image src="/pictures/personalProjects/blackjack/Stay.jpg" alt="Stay" width= "500" height="125" className={styles.image} />
       </div>
     </section>
   );

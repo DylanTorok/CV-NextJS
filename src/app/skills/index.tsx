@@ -1,6 +1,7 @@
 // Body.tsx
 import React from 'react';
 import styles from './Body.module.css';
+import Image from 'next/image';
 
 const languagesData = [
   { name: 'Java', image: '/pictures/languages/Java.jpg', width: 80, height: 135, level: 75 },
@@ -27,7 +28,7 @@ const Body: React.FC = () => {
       <div className={styles.skillsContainer}>
         {languagesData.map((language, index) => (
           <div className={styles.skillItem} key={index}>
-            <img src={language.image} alt={language.name} width={language.width} height={language.height} />
+            <Image src={language.image} alt={language.name} width={language.width} height={language.height} />
             <div className={styles.skillInfo}>
               <p className={styles.p}>{language.name}</p>
             </div>
@@ -42,7 +43,7 @@ const Body: React.FC = () => {
       <div className={styles.skillsContainer}>
         {softwaresData.map((software, index) => (
           <div className={styles.skillItem} key={index}>
-            <img src={software.image} alt={software.name} width={software.width} height={software.height} />
+            <Image src={software.image} alt={software.name} width={software.width} height={software.height} />
             <div className={styles.skillInfo}>
               <p className={styles.p}>{software.name}</p>
             </div>

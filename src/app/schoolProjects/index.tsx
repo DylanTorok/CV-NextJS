@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Body.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const projectsData = [
   { name: 'Julia', image: '/pictures/schoolProjects/fractals/Julia.jpg', description: 'Génération de fractales en Java', link : "/schoolProjects/fractals", width : 250, height : 250 },
@@ -13,7 +14,7 @@ const Body: React.FC = () => {
       {projectsData.map((project, index) => (
         <Link key={index} className={styles.link} href={project.link}>
         <div className={styles.projectItem}>
-          <img src={project.image} alt={project.name} width={project.width} height={project.height} />
+          <Image src={project.image} alt={project.name} width={project.width} height={project.height} />
           <div className={styles.projectInfo}>
             <h2 className={styles.h2}>{project.name}</h2>
             <p className={styles.p}>{project.description}</p>

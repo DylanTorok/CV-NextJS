@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Body.module.css';
+import Image from 'next/image';
 
 const Body: React.FC = () => {
 
@@ -26,8 +27,8 @@ const Body: React.FC = () => {
       <p className={styles.text}> {`Un formulaire permet de choisir la date de début et de fin d'observation afin de personnaliser le graphique.`}
       </p>
       <div className={styles.imagesContainer}>
-        <img src="/pictures/schoolProjects/weatherReport/Form.jpg" alt="Form" className={styles.image1} />
-        <img src="/pictures/schoolProjects/weatherReport/CurrentReadings.jpg" alt="Current Readings" className={styles.image2} />
+        <Image src="/pictures/schoolProjects/weatherReport/Form.jpg" alt="Form" width= "500" height="125" className={styles.image1} />
+        <Image src="/pictures/schoolProjects/weatherReport/CurrentReadings.jpg" alt="Current Readings" width= "400" height="100" className={styles.image2} />
       </div>
     </section>
   );
