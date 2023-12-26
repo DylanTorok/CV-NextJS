@@ -10,7 +10,7 @@ const Body: React.FC = () => {
   return (
     <section className={styles.body}>
       {projectsData.map((project, index) => (
-         <Link className={styles.link} href="/projetsPersonnels/blackjack">
+         <Link className={styles.link} href="/personalProjects/blackjack">
         <div className={styles.projectItem} key={index}>
           <img src={project.image} alt={project.name} className={styles.projectImage} />
           <div className={styles.projectInfo}>
