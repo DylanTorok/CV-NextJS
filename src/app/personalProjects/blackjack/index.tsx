@@ -16,7 +16,7 @@ const Body: React.FC = () => {
       <p className={styles.text}> {`La valeur des cartes correspond à leur valeur nominale pour les cartes de 2 à 10.
       Le valet, la dame et le roi valent 10 points. Puis l'as vaut 11 points ou 1 point si le score du joueur plus les 11 points de l'as
       dépasse 21 points (exemple : dix + valet + as = 10 + 10 + 1 = 21 points. Sinon 10 + 10 + 11 = 31 points).
-      La totalité de ces règles sont présentes dans ce blackjack. `}
+      La totalité de ces règles sont présentes dans ce blackjack.`}
       </p>
       <p className={styles.text}> {`Le jeu est jouable sur l'invite de commandes après avoir compilé le programme.`}
       </p>
