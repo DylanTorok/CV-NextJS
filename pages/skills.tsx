@@ -4,7 +4,7 @@ import Body from '../src/app/skills';
 import Footer from '../src/app/staticComponents/Footer';
 import styles from '../styles/index.module.css';
 
-const Competences: React.FC = () => {
+const Skills: React.FC = () => {
   return (
     <div>
       <Navbar/>
@@ -16,4 +16,4 @@ const Competences: React.FC = () => {
   );
 };
 
-export default Competences;
+export default Skills;

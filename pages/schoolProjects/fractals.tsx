@@ -1,10 +1,10 @@
 import React from 'react';
 import Navbar from '../../src/app/staticComponents/Navbar';
-import Body from '../../src/app/personalProjects/blackjack';
+import Body from '../../src/app/schoolProjects/fractals';
 import Footer from '../../src/app/staticComponents/Footer';
 import styles from '../../styles/index.module.css';
 
-const Blackjack: React.FC = () => {
+const Fractals: React.FC = () => {
   return (
     <div>
       <Navbar/>
@@ -16,4 +16,4 @@ const Blackjack: React.FC = () => {
   );
 };
 
-export default Blackjack;
+export default Fractals;

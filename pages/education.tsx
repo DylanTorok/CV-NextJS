@@ -4,7 +4,7 @@ import Body from '../src/app/education';
 import Footer from '../src/app/staticComponents/Footer';
 import styles from '../styles/index.module.css';
 
-const Formation: React.FC = () => {
+const Education: React.FC = () => {
   return (
     <div>
       <Navbar/>
@@ -16,4 +16,4 @@ const Formation: React.FC = () => {
   );
 };
 
-export default Formation;
+export default Education;

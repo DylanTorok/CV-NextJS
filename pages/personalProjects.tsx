@@ -4,7 +4,7 @@ import Body from '../src/app/personalProjects';
 import Footer from '../src/app/staticComponents/Footer';
 import styles from '../styles/index.module.css';
 
-const ProjetsPersonnels: React.FC = () => {
+const PersonalProjects: React.FC = () => {
   return (
     <div>
       <Navbar/>
@@ -16,4 +16,4 @@ const ProjetsPersonnels: React.FC = () => {
   );
 };
 
-export default ProjetsPersonnels;
+export default PersonalProjects;
