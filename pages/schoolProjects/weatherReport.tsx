@@ -4,7 +4,7 @@ import Body from '../../src/app/schoolProjects/weatherReport';
 import Footer from '../../src/app/staticComponents/Footer';
 import styles from '../../styles/index.module.css';
 
-const Fractals: React.FC = () => {
+const WeatherReport: React.FC = () => {
   return (
     <div>
       <Navbar/>
@@ -16,4 +16,4 @@ const Fractals: React.FC = () => {
   );
 };
 
-export default Fractals;
+export default WeatherReport;
