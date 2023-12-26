@@ -18,7 +18,7 @@ const Body: React.FC = () => {
       la création d'un plan avec une abscisse et une ordonnée puis d'une image, des suites mathématiques
       permettant d'afficher des fractales différentes sur le plan, etc.`}
       </p>
-      <p className={styles.text}> {` D'autres fractales spécifiques, comme le "tapis de Sierpinski", avaient besoin d'être codées récursivement.
+      <p className={styles.text}> {`D'autres fractales spécifiques, comme le "tapis de Sierpinski", avaient besoin d'être codées récursivement.
       De multiples patrons de conception furent utilisés afin de rendre le projet cohérent et plus lisible.`}
       </p>
       <p className={styles.text}> {`À la fin, des scripts bash furent écrits pour générer automatiquement les images des fractales.`}
