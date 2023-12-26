@@ -3,7 +3,7 @@ import styles from './Body.module.css';
 import Link from 'next/link';
 
 const projectsData = [
-  { name: 'Blackjack', image: '/pictures/personalProjects/blackjack/Blackjack.jpg', description: 'Jeu de Blackjack sur terminal développé en C' },
+  { name: 'Blackjack', image: '/pictures/personalProjects/blackjack/Blackjack.jpg', description: 'Jeu de Blackjack sur terminal développé en C' }
 ];
 
 const Body: React.FC = () => {
