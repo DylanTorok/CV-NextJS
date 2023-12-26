@@ -22,3 +22,17 @@
   height: auto;
   margin-right: 10px;
 }
+
+/* Ajout d'une media query pour désactiver le flex sur les petits écrans */
+@media only screen and (max-width: 800px) {
+
+  .imagesContainer {
+    flex-direction: column; /* Alignement vertical des éléments */
+    align-items: center;
+    padding-top: 5%;
+  }
+
+  .image {
+    padding-top: 5%;
+  }
+}
