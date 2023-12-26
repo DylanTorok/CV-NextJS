@@ -33,6 +33,7 @@
   }
 
   .image {
+    width: 300px;
     padding-top: 5%;
   }
 }
