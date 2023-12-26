@@ -10,11 +10,6 @@
   border: 2px solid #ddd;
 }
 
-.projectImage {
-  width: 250px;
-  height: 250px;
-}
-
 .projectInfo {
   flex: 1;
   padding: 10px;
