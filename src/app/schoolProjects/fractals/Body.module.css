@@ -1,0 +1,38 @@
+.body {
+  width: 60%;
+}
+
+.text {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.imagesContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.image {
+  width: 400px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Ajout d'une media query pour désactiver le flex sur les petits écrans */
+@media only screen and (max-width: 800px) {
+
+  .imagesContainer {
+    flex-direction: column; /* Alignement vertical des éléments */
+    align-items: center;
+    padding-top: 5%;
+  }
+
+  .image {
+    padding-top: 5%;
+  }
+}

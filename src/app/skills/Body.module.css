@@ -45,6 +45,7 @@
 .p {
   color: #fff;
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Ajout d'une media query pour désactiver le flex sur les petits écrans */
