@@ -11,7 +11,7 @@ const Body: React.FC = () => {
   return (
     <section className={styles.body}>
       {projectsData.map((project, index) => (
-         <Link className={styles.link} href={project.link}>
+        <Link className={styles.link} href={project.link}>
         <div className={styles.projectItem} key={index}>
           <img src={project.image} alt={project.name} width={project.width} height={project.height} />
           <div className={styles.projectInfo}>
